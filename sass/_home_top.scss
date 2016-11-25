@@ -1,0 +1,121 @@
+body {
+	font-size : 16px;
+	font-family : Arial;
+	margin : 0;
+
+}
+
+ul {
+	list-style : none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.fond1 {
+	background-image: url(http://lorempicsum.com/simpsons/627/300/4); 
+	background-repeat : no-repeat;
+	height: 25em;
+	background-position : center center;
+	background-size : cover;
+	margin-bottom : 2em;
+
+	
+
+	ul {
+		text-align: right;
+		margin-top :0;
+		padding-right : 2em;
+		
+	}
+
+	
+
+	li {
+		display: inline-block;
+		margin-left :3em;
+		font-size: 1em;
+		// color : #fff;
+		color: gray;
+			margin-top: 1em;
+	}
+	h2 {
+	padding-top : 2.7em;
+	font-size : 1.8em;
+	margin-left : 4.5em;
+	}
+	p {
+		margin-left : 8em;
+	}
+
+	button {
+		// float :right;
+		background-color: white;
+		margin-left : 8em;
+		border-radius : 3em;
+		height: 2.5em;
+		font-size: 1em;
+	}
+}
+
+.menu {
+
+	display : flex;
+	// margin-right: auto;
+	// margin-left: auto;
+	// width : 60%;
+	justify-content : center;
+
+	input {
+			border:transparent;
+		}
+
+	.ou {
+		box-sizing : border-box;
+		padding-top: 0.6em;
+		padding-left : 0.6em;
+		border : 1px solid gray;
+		width : 300px;
+		height : 70px;
+		border-top-left-radius : 0.6em;
+		border-bottom-left-radius : 0.6em;
+	}	
+
+	.quand {
+		box-sizing : border-box;
+		padding-top: 0.6em;
+		padding-left : 0.6em;
+		border : 1px solid gray;
+		width : 25em;
+		height : 4.4em;
+	}
+
+	.voyageurs {
+		box-sizing : border-box;
+		padding-top: 0.6em;
+		padding-left : 0.6em;
+		border : 1px solid gray;
+		width : 19em;
+		height : 4.4em;
+		border-top-right-radius : 0.6em;
+		border-bottom-right-radius : 0.6em;
+		
+		button {
+				background-color: pink;
+				height: 2em;
+				border-radius: 0.5em;
+
+		}
+
+		select {
+			margin-right : 2em;
+			margin-top: 0.5em;
+		}
+	}	
+}	
+
+// hr {
+// 	margin : 0 auto;
+// 	width : 80%;
+// }

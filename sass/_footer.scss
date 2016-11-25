@@ -1,0 +1,96 @@
+.footer-top {
+	display : flex;
+	ul {
+		padding-left: 0em;
+	}
+	 li {
+	 	list-style: none;
+	 }
+	a {
+		color : gray;
+	 	font-size: 0.8em;
+	 	text-decoration: none;
+	}
+	
+	a:hover {
+		color : #00848b;
+	}
+
+	h5 {
+		padding-bottom : 0px;
+	}
+
+	.vide1 {
+		border-top : solid #dbdbdb 1px;
+		height: 10em;
+		width: 10em;
+	}
+
+	.select {
+		border-top : solid #dbdbdb 1px;
+		border-bottom : solid #dbdbdb 1px;
+		height: 10em;
+		width: 20em;
+
+		.select1 {
+			select {
+				font-size: 15px;
+				height: 2em;
+				width: 10em;
+				margin-top: 1em;
+				margin-bottom :1em;
+				background-color: #fff;
+				color : #00848b;
+			}
+		}
+		.select2 {
+			select {
+				height: 2em;
+				width: 10em;
+				font-size: 15px;
+				background-color: #fff;
+				color : #00848b;	
+			}
+		}
+	}
+
+	.airbnb {
+		border-top : solid #dbdbdb 1px;
+		border-bottom : solid #dbdbdb 1px;
+		height: 10em;
+		width: 20em;
+		 
+	}
+
+
+	.decouvre {
+		border-top : solid #dbdbdb 1px;
+		border-bottom : solid #dbdbdb 1px;
+		height: 10em;
+		width: 20em;
+		
+	}
+
+	.hebergmt {
+		border-top : solid #dbdbdb 1px;
+		border-bottom : solid #dbdbdb 1px;
+		height: 10em;
+		width: 20em;
+		
+	}
+	
+	.vide2 {
+		border-top : solid #dbdbdb 1px;
+		height: 10em;
+		width: 10em;
+	}
+
+}
+
+.footer-bottom {
+	display : flex;
+	justify-content : space-between;
+	div , ul {
+		outline: 1px red solid;
+	}
+}

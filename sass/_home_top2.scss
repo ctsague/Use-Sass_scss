@@ -1,0 +1,47 @@
+h3 {
+	margin-left : 1em;
+	margin-bottom : 0;
+}
+.quatreimg {
+	//box-sizing : border-box;
+
+	display : flex;
+	justify-content : space-around;
+	margin-bottom : 50px;
+	
+	
+	.quatreimg1 {
+		background-image : url("http://lorempicsum.com/simpsons/800/400/1");
+		background-repeat : no-repeat;
+		height: 20em;
+		width: 15em ;
+		text-align: center;
+	}
+
+
+	.quatreimg2 {
+		background-image : url("http://lorempicsum.com/simpsons/800/400/1");
+		background-repeat : no-repeat;
+		height: 20em;
+		width: 15em ;
+		text-align: center;
+	}
+
+	.quatreimg3 {
+		background-image : url("http://lorempicsum.com/simpsons/800/400/1");
+		background-repeat : no-repeat;
+		height: 20em;
+		width: 15em ;
+		text-align: center;
+	}
+
+
+	.quatreimg4 {
+		background-image : url("http://lorempicsum.com/simpsons/800/400/1");
+		background-repeat : no-repeat;
+		height: 20em;
+		width: 15em ;
+		text-align: center;
+	}
+}
+
